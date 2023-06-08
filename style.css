@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  height: 40px;
+  position: relative;
+  top: 100px;
+  background-color: #00c73c;
+}
+.top img {
+  position: absolute;
+  border-radius: 10px;
+  background-color: white;
+  left: 300px;
+}
+.naver_name {
+  font-family: fantasy;
+  color: #ebf0f3;
+  font-size: x-large;
+  position: absolute;
+
+  left: 350px;
+  line-height: 40px;
+}
+.line {
+  line-height: 40px;
+  width: 1px;
+  height: 28px;
+  position: absolute;
+  left: 400px;
+  top: 5px;
+  background-color: rgb(139, 156, 172);
+}
+#text {
+  position: absolute;
+  width: 300px;
+  left: 410px;
+  top: 5px;
+  height: 25px;
+}
+#submit {
+  position: absolute;
+  left: 720px;
+  height: 28px;
+  top: 5px;
+  background-color: #28a93a;
+  color: white;
+  border: 1px solid #239e36;
+  padding: 1px;
+}
+.container {
+  display: flex;
+  position: absolute;
+  left: 900px;
+}
+.container .item {
+  position: relative;
+  width: 75px;
+  height: 30px;
+  top: 4px;
+  left: 6px;
+}
+.container .item img {
+  top: 1px;
+}
+.main {
+  position: relative;
+  top: 140px;
+  height: 300px;
+  background-color: #ebf0f3;
+  display: flex;
+}
+.main .picture {
+  position: relative;
+  display: flex;
+  width: 1050px;
+  padding: 20px;
+}
+.login {
+  padding: 20px;
+  border: 1px solid #aeb4b8;
+  padding: 30px;
+  width: 354px;
+  height: 100px;
+  display: flex;
+  margin-top: 20px;
+}
+.section {
+  position: relative;
+  width: 150px;
+  left: 130px;
+}
+.login img {
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.menu {
+  margin-top: 26px;
+  display: flex;
+}
+.itemmenu {
+  border: 1px solid #aeb4b8;
+  font-weight: bolder;
+  width: 102px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+.footer {
+  position: relative;
+  top: 150px;
+  height: 150px;
+  background-color: #ebf0f3;
+}
+.info {
+  position: relative;
+  left: 250px;
+  top: 20px;
+  width: 600px;
+}
+.title_img {
+  position: relative;
+  top: 30px;
+}
+p {
+  font-family: "Nanum Pen Script", cursive;
+}
